@@ -106,7 +106,36 @@ let displayEmployees=(employees)=>{
         <td>${emp.ip_address}</td>
         </tr>`
         tablebody.innerHTML=tablerow
-
     }
+}
 
+function maleemp() {
+  for (let emp of employees) {
+    if (emp.gender == "Male") {
+      document.getElementById("table-body").innerHTML += `<tr>
+        <td>${emp.id}</td>
+        <td>${emp.first_name}</td>
+        <td>${emp.last_name}</td>
+        <td>${emp.email}</td>
+        <td>${emp.gender}</td>
+        <td>${emp.ip_address}</td>
+        </tr>`;
+    }
+  }
+}
+
+function femaleemp() {
+  for (let emp of employees) {
+    if (emp.gender == "Female") {
+      document.getElementById("table-body").innerHTML += `<tr>
+  <td>${emp.id}</td>
+  <td>${emp.first_name}</td>
+  <td>${emp.last_name}</td>
+  <td>${emp.email}</td>
+  <td>${emp.gender}</td>
+  <td>${emp.ip_address}</td>
+  </tr>
+  `;
+    }
+  }
 }
