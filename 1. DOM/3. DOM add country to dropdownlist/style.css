@@ -1,0 +1,26 @@
+body{
+    background-color: pink;
+    text-align: center;
+}
+
+select{
+    width: 30%;
+    font-size: 25px;
+}
+
+input{
+    width: 90%;
+}
+
+select,input,button{
+    height: 40px;
+    border: 3px solid blue;
+    border-radius: 3px;
+}
+
+button{
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: rgb(182, 235, 135);
+}

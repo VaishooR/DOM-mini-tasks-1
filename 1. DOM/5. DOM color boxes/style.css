@@ -1,0 +1,24 @@
+.one,.two,.three,.four,.five{
+    width: 100px;
+    height: 100px;
+}
+
+.one{
+    background-color:red;
+}
+
+.two{
+    background-color:yellow;
+}
+
+.three{
+    background-color:green;
+}
+
+.four{
+    background-color:blue;
+}
+
+.five{
+    background-color:orange;
+}

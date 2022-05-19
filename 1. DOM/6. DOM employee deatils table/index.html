@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee table</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <section class="container mt-5">
+
+        <!-- Create 3 buttons -->
+        <button class="btn btn-primary" id="allemp">All Employees</button>
+        <button class="btn btn-primary" id="maleemp">Male Employees</button>
+        <button class="btn btn-primary" id="femaleemp">Female Employees</button><br><br>
+
+        <!-- Create search box -->
+        <form>
+            <label>Type to Search:</label>
+            <input 
+              type="search"
+              id="searchbox"
+              placeholder="Search here"
+            />
+        </form><br>
+
+        <!-- Create a table -->
+        <table class="table table-bordered bg-warning">
+            <thead>
+                <th>ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>IP address</th>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+
+
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="m-5 p-3">
+        <h1>Calculator:</h1>
+
+        <label for="num1">Number 1:</label>
+        <input type="text" id="num1"><br><br>
+        <label for="num2">Number 2:</label>
+        <input type="text" id="num2"><br><br>
+
+        <h4>Result: <span id="span"></span></h4><br>
+
+        <button onclick="add()" class="btn btn-primary">Add</button>
+        <button onclick="sub()" class="btn btn-primary">Subtract</button>
+        <button onclick="mul()" class="btn btn-primary">Multiply</button>
+        <button onclick="div()" class="btn btn-primary">Divide</button>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
