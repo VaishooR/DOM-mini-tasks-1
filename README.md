@@ -7,3 +7,4 @@
 5. Color boxes:  https://dom-click-boxes-find-color-name-minitask.netlify.app
 7. SMS app:  https://dom-sms-app-wordcount-minitask.netlify.app
 8. Show password:  https://dom-show-password-minitask.netlify.app
+9. Likes Dislikes:  https://dom-no-of-likes-minitask.netlify.app
